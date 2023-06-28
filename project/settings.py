@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #new value below:
+    'django_extensions',
     'films.apps.FilmsConfig',
 ]
 

@@ -1,3 +1,5 @@
+# Django starter for film-lovers
+
 ### https://towardsdatascience.com/django-first-steps-for-the-total-beginners-a-quick-tutorial-5f1e5e7e9a8c
 
 `$ python manage.py shell`
@@ -28,3 +30,14 @@
 - Use the `.to_html()` method from a Plotly Figure object and save it in a context dictionary with a name such as `fig`.
 - In the Django template, use the tag `{{fig | safe}}` to render the graph.
 - http://localhost:8000/gapminder/2007
+
+# django-extensions
+
+### https://towardsdatascience.com/use-python-scripts-to-insert-csv-data-into-django-databases-72eee7c6a433
+
+Our model has only two tables: films_film and films_genre.
+See R library for data sources: https://cran.r-project.org/web/packages/pixarfilms/index.html
+
+$ pip install django django-extensions pandas plotly
+
+See the file /scripts/load_pixar.py for explanation
